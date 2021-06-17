@@ -1,5 +1,89 @@
+
+/*estilos da página index*/
+
 h1{
 	color: rgb(47, 126, 245);
 	 size: 32pt; 
 	 margin: 50px;
 }
+
+.menu li{
+	color: rgb(210, 30, 180);
+	display: inline;
+	padding: 15px;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu li a:hover{
+	color: rgb(15, 174, 248);
+}
+
+p{
+	color: rgb(63, 5, 110);
+}
+
+.center{
+	text-align: center;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.flex-container{
+	display: flex;
+	background-color: rgb(177, 231, 215);
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-container > div{
+	background-color: honeydew;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.p30{
+	padding: 30px;
+	
+}
+
+.bratius{
+	border-radius: 50%;
+}
+
+.wh{
+	width: 550px;
+	height: 350px;
+}
+
+.wh2{
+	width: 100px;
+	height: 100px;
+}
+.wh3{
+	width: 400px;
+	height: 220px;
+}
+
+
+.mb50{
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 25pt;
+	color: rgb(190, 77, 235);
+}
+
+.ml50{
+	margin-left: 50px;
+}
+

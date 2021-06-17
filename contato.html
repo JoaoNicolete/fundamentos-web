@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <div class="flex-container">
+        <div>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="centro.html"> Centro </a></li>
+            </ul>
+        </div>
+    </div>
 
-    <form>
-        <label for="nome">Nome: </label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email: </label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto: </label><br>
-        <textarea name="assunto" id="assunto" cols="20" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="flex-container mb50">
+        <div class="ml50">
+            <h2>Entre em contato comigo</h2>
 
-    <h2>Endereço:</h2>
-    <p>Empire State</p>
+            <form>
+                <label for="nome">Nome: </label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">Email: </label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto: </label><br>
+                <textarea name="assunto" id="assunto" cols="20" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6173560726975!2d-73.98785308495476!3d40.748444543322705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1spt-BR!2sbr!4v1623856948427!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div>
+            <h2>Endereço:</h2>
+            <p>Empire State</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6173560726975!2d-73.98785308495476!3d40.748444543322705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1spt-BR!2sbr!4v1623856948427!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="flex-container">
+
+            <a href="https://www.youtube.com/watch?v=EDorCze6pd0" target="_blank">
+                <img class="wh2 p30" src="https://th.bing.com/th/id/Ra2f47320a48764363b1eb7fd73cb60ab?rik=p%2fpMrM8AKLj41Q&riu=http%3a%2f%2fdata1.ibtimes.co.in%2fen%2ffull%2f628362%2frupauls-drag-race.jpg&ehk=t1fRV2AKoNNcfOmZ9D8bme3Oy84s%2b2Gz5t9WwG%2bNlKs%3d&risl=&pid=ImgRaw" alt="meu logo">
+            </a>
+            
+            <a href="https://www.youtube.com/watch?v=r3xNAPKuE6w" target="_blank">
+                <img class="wh2 p30" src="https://th.bing.com/th/id/Rf8e1f50d9187ed89314d30f7488d946f?rik=YoC1AmJu3Jj1hg&riu=http%3a%2f%2fwww.st-minutiae.com%2fresources%2flogos%2fASDB_logo.gif&ehk=kieY6NmEaBKH%2fVtdBUqjNxcsYrNwYzNUdeyhQwwwAWY%3d&risl=&pid=ImgRaw" alt="outro logo">
+
+            </a>
+        </div>
+        <p>
+            João Nicolete &copy
+        </p>
+        
+    </footer>
+
 </body>
+
 </html>
