@@ -30,18 +30,18 @@
 
             <form>
                 <label for="nome">Nome: </label><br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
                 <br>
                 <label for="email">Email: </label><br>
-                <input type="email" id="email">
-                <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 <br>
                 <label for="assunto">Assunto: </label><br>
-                <textarea name="assunto" id="assunto" cols="20" rows="5"></textarea>
+                <textarea name="assunto" id="assunto" cols="20" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
                 <br>
-                <br>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
 
         </div>
@@ -50,9 +50,9 @@
             <h2>Endereço:</h2>
             <p>Empire State</p>
 
-            <iframe
+            <iframe id="mapa"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6173560726975!2d-73.98785308495476!3d40.748444543322705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1spt-BR!2sbr!4v1623856948427!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoon()" onmouseout="mapaNormal()"></iframe>
 
         </div>
 
@@ -76,6 +76,7 @@
         
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
