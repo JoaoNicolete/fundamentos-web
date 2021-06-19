@@ -1,14 +1,21 @@
 
 /*estilos da página index*/
 
+body{
+	background-color: #ffffff;
+	background-image: url("https://th.bing.com/th/id/Re2a5322c42d10fb5696996b9953cfcd7?rik=syK9g7q1nlwdEQ&pid=ImgRaw");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 h1{
-	color: rgb(47, 126, 245);
+	color: rgb(255, 255, 255);
 	 size: 32pt; 
 	 margin: 50px;
 }
 
 .menu li{
-	color: rgb(210, 30, 180);
+	color: rgb(255, 254, 255);
 	display: inline;
 	padding: 15px;
 }
@@ -16,14 +23,15 @@ h1{
 .menu li a{
 	text-decoration: none;
 	font-size: 20px;
+	color: rgb(255, 255, 255);
 }
 
 .menu li a:hover{
-	color: rgb(15, 174, 248);
+	color: rgb(45, 247, 236);
 }
 
 p{
-	color: rgb(63, 5, 110);
+	color: rgb(0, 0, 0);
 }
 
 .center{
@@ -36,15 +44,18 @@ p{
 
 .flex-container{
 	display: flex;
-	background-color: rgb(177, 231, 215);
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
+.align{
+	align-items: center;
+}
+
 .flex-container > div{
-	background-color: honeydew;
+	background-color: rgba(116, 189, 218, 0.315);
 	margin: 10px;
 	padding: 20px;
 	font-size: 30px;
@@ -73,6 +84,11 @@ p{
 	height: 220px;
 }
 
+.wh4{
+	width: 800px;
+	height: 400px;
+}
+
 
 .mb50{
 	margin-bottom: 50px;
@@ -80,10 +96,21 @@ p{
 
 h2{
 	font-size: 25pt;
-	color: rgb(190, 77, 235);
+	color: rgb(255, 255, 255);
 }
 
 .ml50{
 	margin-left: 50px;
 }
 
+.margin0{
+	margin: 0px;
+}
+
+.mlmaior{
+	margin-left: 275px;
+}
+
+.color{
+	color: white;
+}
