@@ -48,6 +48,7 @@ p{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	background: inherit;
 }
 
 .align{
@@ -55,10 +56,13 @@ p{
 }
 
 .flex-container > div{
-	background-color: rgba(116, 189, 218, 0.315);
+	background-color: rgba(255, 255, 255, .15);  
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	backdrop-filter: blur(5px);
 	margin: 10px;
 	padding: 20px;
 	font-size: 30px;
+	background: inherit;
 }
 
 .p30{
@@ -87,6 +91,10 @@ p{
 .wh4{
 	width: 800px;
 	height: 400px;
+}
+.wh5{
+	width: 300px;
+	height: 300px;
 }
 
 
