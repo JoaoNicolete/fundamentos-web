@@ -14,18 +14,36 @@
 <body>
 
 	<!-- container do menu -->
-	<div class="flex-container">
-        <div>
-            <ul class="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="centro.html"> Centro </a></li>
-				<li><a href="enterprise.html"> Enterprise </a></li>
-            </ul>
+	<nav class="navbar navbar-expand-lg navbar-light glass">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Generation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="centro.html">Centro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="enterprise.html">Enterprise</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Pequisar</button>
+                </form>
+            </div>
         </div>
-    </div>
+    </nav>
 
 	<!-- container da foto inicial e texto inicial -->
 	<div class="flex-container p30">

@@ -122,3 +122,9 @@ h2{
 .color{
 	color: white;
 }
+
+.glass{
+	background-color: rgba(255, 255, 255, .15);  
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	backdrop-filter: blur(5px);
+}

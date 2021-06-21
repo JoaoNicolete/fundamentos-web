@@ -8,55 +8,75 @@
     <title>Meu perfil</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
 
 <body>
 
-    <div class="flex-container">
-        <div>
-            <ul class="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="centro.html"> Centro </a></li>
-                <li><a href="enterprise.html"> Enterprise </a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light glass">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Generation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="centro.html">Centro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="enterprise.html">Enterprise</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Pequisar</button>
+                </form>
+            </div>
         </div>
-        <div>
-            <h1 class="center">Sobre mim </h1>
-            <p class="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae dolor consequuntur similique
-                itaque
-                quaerat ratione facilis consectetur deserunt provident ab obcaecati voluptatibus, repellat totam
-                harum
-                inventore debitis eum officia.
-            </p>
-            <p class="justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequuntur exercitationem
-                veritatis
-                quaerat? Fugit facere cumque alias. Minus ratione voluptatum atque quas, laborum esse voluptatibus,
-                voluptate quidem amet et sunt.
-            </p>
-        </div>
+    </nav>
 
-        <div>
+    <div class="container">
+        <div class="row justify-content-md-center glass m-5 p-2">
+            <div class="col">
+                <h1 class="center">Sobre mim </h1>
+                <p class="justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae dolor consequuntur similique
+                    itaque
+                    quaerat ratione facilis consectetur deserunt provident ab obcaecati voluptatibus, repellat totam
+                    harum
+                    inventore debitis eum officia.
+                </p>
+                <p class="justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequuntur exercitationem
+                    veritatis
+                    quaerat? Fugit facere cumque alias. Minus ratione voluptatum atque quas, laborum esse voluptatibus,
+                    voluptate quidem amet et sunt.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col glass m-2 p-2">
             <img class="bratius wh p30" src="assets/img/05onfire1_xp-articleLarge-v2.jpg"
                 alt="Foto do criador deste conteúdo">
         </div>
-
-        <hr>
-
-        <div class="mb50">
-            <h2 class="center">Uma musiquinha</h2>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zSdR3H2g_WY" title="Ta escrito"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <div class="col glass m-2 p-2">
+            <h2> Em 2022:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YoD706qGiHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+    </div>
 
-    </div>
-    </div>
+
 
     <hr>
 
@@ -64,19 +84,27 @@
         <div class="flex-container">
 
             <a href="https://www.youtube.com/watch?v=EDorCze6pd0" target="_blank">
-                <img class="wh2 p30" src="https://th.bing.com/th/id/Ra2f47320a48764363b1eb7fd73cb60ab?rik=p%2fpMrM8AKLj41Q&riu=http%3a%2f%2fdata1.ibtimes.co.in%2fen%2ffull%2f628362%2frupauls-drag-race.jpg&ehk=t1fRV2AKoNNcfOmZ9D8bme3Oy84s%2b2Gz5t9WwG%2bNlKs%3d&risl=&pid=ImgRaw" alt="meu logo">
+                <img class="wh2 p30"
+                    src="https://th.bing.com/th/id/Ra2f47320a48764363b1eb7fd73cb60ab?rik=p%2fpMrM8AKLj41Q&riu=http%3a%2f%2fdata1.ibtimes.co.in%2fen%2ffull%2f628362%2frupauls-drag-race.jpg&ehk=t1fRV2AKoNNcfOmZ9D8bme3Oy84s%2b2Gz5t9WwG%2bNlKs%3d&risl=&pid=ImgRaw"
+                    alt="meu logo">
             </a>
-            
+
             <a href="https://www.youtube.com/watch?v=r3xNAPKuE6w" target="_blank">
-                <img class="wh2 p30" src="https://th.bing.com/th/id/Rf8e1f50d9187ed89314d30f7488d946f?rik=YoC1AmJu3Jj1hg&riu=http%3a%2f%2fwww.st-minutiae.com%2fresources%2flogos%2fASDB_logo.gif&ehk=kieY6NmEaBKH%2fVtdBUqjNxcsYrNwYzNUdeyhQwwwAWY%3d&risl=&pid=ImgRaw" alt="outro logo">
+                <img class="wh2 p30"
+                    src="https://th.bing.com/th/id/Rf8e1f50d9187ed89314d30f7488d946f?rik=YoC1AmJu3Jj1hg&riu=http%3a%2f%2fwww.st-minutiae.com%2fresources%2flogos%2fASDB_logo.gif&ehk=kieY6NmEaBKH%2fVtdBUqjNxcsYrNwYzNUdeyhQwwwAWY%3d&risl=&pid=ImgRaw"
+                    alt="outro logo">
 
             </a>
         </div>
         <p>
             João Nicolete &copy
         </p>
-        
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
